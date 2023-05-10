@@ -21,24 +21,5 @@ public class DemoApplication {
 	public static void main(String[] args) throws IOException, InterruptedException {
 		SpringApplication.run(DemoApplication.class, args);
 
-//		ObjectMapper mapper = new ObjectMapper();
-//
-//		HttpClient httpClient = HttpClient.newBuilder()
-//				.build();
-//		System.out.println("start");
-//		HttpRequest request = HttpRequest.newBuilder()
-//				.GET()
-//				.uri(URI.create("https://jsonmock.hackerrank.com/api/countries?name=India"))
-//				.build();
-//
-//		HttpResponse<String> response = httpClient.send(request, HttpResponse.BodyHandlers.ofString());
-//		System.out.println(response.body());
-//
-//		Root root = mapper.readValue(response.body(), Root.class);
-//
-//		String callingCode = root.data.stream().findFirst().get().callingCodes.stream().findFirst().toString();
-//		System.out.println(callingCode);
-//		Arrays.copyOfRange()
-
 	}
 }
